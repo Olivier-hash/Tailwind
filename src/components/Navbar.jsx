@@ -5,10 +5,10 @@ function Navbar() {
     <>
        <div className='flex-1 items-center justify-between bg-gray-600 p-4 shadow-md text-white '>
         <div className='flex justify-between'>
-           <h2>Home</h2>
-           <h2>About us</h2>
-           <h2>Contact</h2>
-           <h2>SignUp</h2>
+           <h2 className='hidden md:block  bg-cover bg-center justify-between'>Home</h2>
+           <h2 className='hidden md:block  bg-cover bg-center justify-between'>About us</h2>
+           <h2 className='hidden md:block  bg-cover bg-center justify-between'>Contact</h2>
+           <h2 className='hidden md:block  bg-cover bg-center justify-between'>SignUp</h2>
         </div>  
        </div>
     </>
