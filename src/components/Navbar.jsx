@@ -1,21 +1,22 @@
-import React from 'react'
+import React from 'react';
 
 function Navbar() {
   return (
-    <>
-       <div className='items-center justify-between bg-gray-600 p-4 shadow-md text-white '>
-        <div className='flex flex-column md:flex-row space-x-4'>
-           <h2 className='   justify-between'>Home</h2>
-           <h2 className='   justify-between'>About us</h2>
-           <h2 className='   justify-between'>Contact</h2>
-        </div> 
-         <div className='flex flex-row-reverse space-x-4 space-x-reverse'>
-           <button><h2 className='   justify-between'>SignUp</h2></button>
-           <button><h2 className='   bg-center justify-between'>Login</h2></button>
-          </div> 
-       </div>
-    </>
-  )
+    <div className="flex items-center justify-between bg-gray-600 p-4 shadow-md text-white">
+      {/* Left side: Home, About, Contact */}
+      <div className="flex space-x-4">
+        <h2>Home</h2>
+        <h2>About us</h2>
+        <h2>Contact</h2>
+      </div>
+
+      {/* Right side: SignUp, Login */}
+      <div className="flex space-x-4">
+        <button className='rounded-full w-20 h-8 bg-transparent hover:bg-white hover:text-blue-600'>Login</button>
+        <button className='rounded-full w-20 h-8 bg-transparent hover:bg-white hover:text-blue-600'>Signup</button>
+      </div>
+    </div>
+  );
 }
 
-export default Navbar
+export default Navbar;
