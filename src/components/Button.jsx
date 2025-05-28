@@ -3,7 +3,7 @@ import React from 'react'
 function Button() {
   return (
     <>
-    <div class="mx-auto flex max-w-md items-center gap-x-6 rounded-xl bg-white p-6 shadow-lg outline outline-black/5 dark:bg-slate-800 dark:shadow-none dark:-outline-offset-1 dark:outline-white/10">
+    <div class="mx-auto mt-8 flex max-w-md items-center gap-x-6 rounded-xl bg-white p-6 shadow-lg outline outline-black/5 dark:bg-slate-800 dark:shadow-none dark:-outline-offset-1 dark:outline-white/10">
   <img class="size-20 rounded-full " src="/images/pexels.jpg" alt="Block logo" />
   <div>
     <div class="text-xl font-medium text-black dark:text-white">ChitChat we go</div>
