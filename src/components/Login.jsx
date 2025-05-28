@@ -3,10 +3,10 @@
 export default function Login() {
   return (
     <>
-    
+ <div className="flex justify-center">  
 <button
   type="button"
-  className="bg-indigo-500 text-white font-semibold py-2 px-4 rounded inline-flex items-center"
+  className="bg-indigo-500 text-white font-semibold py-2 px-4 rounded inline-flex items-center "
   disabled
 >
   <svg
@@ -32,7 +32,7 @@ export default function Login() {
   Processing…
 </button>
 
-
+</div> 
 
     </>
 
