@@ -2,7 +2,7 @@ import React from 'react';
 
 function Navbar() {
   return (
-    <div className="flex items-center justify-between bg-gray-600 p-4 shadow-md text-white">
+    <div className="flex items-center justify-between bg-gray-800 p-4 shadow-md text-white">
       {/* Left side: Home, About, Contact */}
       <div className="flex space-x-4 font-serif ">
         <h2>Home</h2>
