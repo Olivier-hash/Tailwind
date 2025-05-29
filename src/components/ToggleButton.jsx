@@ -1,6 +1,6 @@
 
 
-export default function Login() {
+export default function ToggleButton() {
   return (
     <>
  <div className="flex justify-center">  
