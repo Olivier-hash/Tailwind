@@ -7,8 +7,8 @@ import Test from "./components/Test";
 function App() {
   return(
     <>
-    {/* <SideBar/> */}
-    <Test/>
+    <SideBar/>
+    {/* <Test/> */}
     </>
   );
 }
