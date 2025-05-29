@@ -1,5 +1,25 @@
 // my original code logic of flex
 import React from 'react'
+function Test() {
+return (
+<>
+<div className='bg-gray-800 text-white py-2 px-2 '>
+    <div className='flex space-x-6'>
+        <h3><a href="">Home</a></h3>
+        <h3><a href="">About</a></h3>
+        <h3><a href="">Services</a></h3>
+        <h3><a href="">Contact us</a></h3>
+    </div>
+    <div className='flex space-x-4'>
+        <h3><a href="">Sign up</a></h3>
+        <h3><a href="">Log in</a></h3>
+    </div>
+</div>
+</>
+);
+}
+
+export default Test
 
 // function Footer() {
 //   return (

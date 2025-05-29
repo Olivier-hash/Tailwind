@@ -26,7 +26,12 @@ function Footer() {
             </div>
             {/* column 3 */}
             <div className='mx-auto'>
-                <h3>Legal</h3>
+                <h3 className='text-lg font-semibold mb-3'>Legal</h3>
+                <ul className='space-y-2'>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Terms of service</a></li>
+                    <li><a href="">Cookies</a></li>
+                </ul>
             </div>
 
         </div>
