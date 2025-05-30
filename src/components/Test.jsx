@@ -4,6 +4,7 @@ function Test() {
 return (
 <>
 <div className='bg-gray-800 text-white py-2 px-2 '>
+    <div className='flex justify-between'>
     <div className='flex space-x-6'>
         <h3><a href=''>Home</a></h3>
         <h3><a href=''>About</a></h3>
@@ -13,6 +14,9 @@ return (
     <div className='flex space-x-4'>
         <h3><a href=''>Sign up</a></h3>
         <h3><a href=''>Log in</a></h3>
+         <h3><a href=''>forget something</a></h3>
+          <h3><a href=''>NEar by</a></h3>
+    </div>
     </div>
 </div>
 </>
